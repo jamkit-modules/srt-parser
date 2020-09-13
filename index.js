@@ -2,7 +2,6 @@ SrtParser = (function() {
     return {}
 })();
 
-
 SrtParser.parse = function(text) {
     var captions = [], text = text.replace("\r", "");
     var pattern = new RegExp(
