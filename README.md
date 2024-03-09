@@ -4,7 +4,6 @@ SRT 포맷의 텍스트를 파싱하는 모듈
 
 ## Examples
 
-#### js
 ```js
 const srt = require("srt-parser");
 const text = "" +
@@ -29,6 +28,7 @@ const captions = srt.parse(text);
 ## API References
 
 #### `parse(text)`
+SRT 텍스트를 파싱한다.
 
 - **Parameters**:
   - `text` (string) - 파싱할 SRT 텍스트
